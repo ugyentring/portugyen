@@ -1,0 +1,21 @@
+
+  html {
+    font-size: 62.5%;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana";
+  font-size: 1.6rem;
+  background-color: #FFE6A5;
+  color: #333333;
+}
+
+/*
+button color - #2F4F4F;
+*/
