@@ -8,6 +8,8 @@ import "./global.module.css"
 //components
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Footer from "./components/Footer";
+
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/works" element={<Works />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
