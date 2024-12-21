@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "./App.module.css"
 //pages
 import Contact from "./pages/Contact"
 import About from "./pages/About"
@@ -23,7 +24,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/works" element={<Works />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }

@@ -1,6 +1,10 @@
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: blue;
+  color: #3D3D3D;
+  background-color: #BF8E44;
+  height: 200px;
+  font-size: 16px;
+
 }
